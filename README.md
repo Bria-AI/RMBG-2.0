@@ -1,4 +1,18 @@
 # BRIA Background Removal v2.0
+<p align="center"><img src="https://platform.bria.ai/assets/Bria-logo-5e0c53b1.svg" alt="BRIA Logo" width="400" /></p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/License-Commercial-blue.svg" alt="License Badge" />
+  <img src="https://img.shields.io/badge/Model%20Size-221M%20parameters-green.svg" alt="Model Size Badge" />
+  <img src="https://img.shields.io/badge/Trained%20on-Licensed%20Data-brightgreen.svg" alt="Licensed Data Badge" />
+  <img src="https://img.shields.io/badge/Commercial%20Ready-Yes-orange.svg" alt="Commercial Ready Badge" />
+  <a href="https://huggingface.co/briaai/RMBG-2.0">
+    <img src="https://img.shields.io/badge/🤗%20HuggingFace-Model-yellow.svg" alt="HuggingFace Model Badge" />
+  </a>
+  <a href="https://huggingface.co/spaces/briaai/BRIA-RMBG-2.0">
+    <img src="https://img.shields.io/badge/🤗%20HuggingFace-Space-blueviolet.svg" alt="HuggingFace Space Badge" />
+  </a>
+</p>
 
 RMBG v2.0 is our new state-of-the-art background removal model significantly improves RMBG v1.4. The model is designed to effectively separate foreground from background in a range of
 categories and image types. This model has been trained on a carefully selected dataset, which includes:
