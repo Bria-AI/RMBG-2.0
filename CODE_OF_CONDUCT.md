@@ -34,7 +34,7 @@ Community leaders have the right and responsibility to remove, edit, or reject c
 This Code of Conduct applies within all project spaces, including but not limited to GitHub repositories, official communication channels (e.g. Discord), and any other platforms established by the project. It also applies when an individual is officially representing the community in public spaces. Examples include using an official project email address, posting via an official social media account, or acting as an appointed representative at an online or offline event.
 
 ## Reporting
-If you are subject to or witness unacceptable behavior, or have any other concerns, please notify the project team at **conduct@bria.ai**.  
+If you are subject to or witness unacceptable behavior, or have any other concerns, please notify the project team at **security@bria.ai**.  
 
 All complaints will be reviewed and investigated promptly and fairly. Reports will be handled with strict confidentiality, and details will only be shared with those directly involved in the investigation. All community leaders are obligated to respect the privacy and security of reporters.
 
