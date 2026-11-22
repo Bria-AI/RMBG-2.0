@@ -198,6 +198,18 @@ cutout.save("photo_cutout.png")
 | GPU memory | 32 GB or more | Measured peak 28.5 GiB on one L40S, with the whole pipeline in bf16. |
 | Speed | about 6 s per image | Measured on one L40S at about 1 megapixel, including text encoding and decoding. |
 
+### Troubleshooting
+
+**`CUDNN_STATUS_SUBLIBRARY_LOADING_FAILED` on AWS Deep Learning AMIs.** Some AWS Deep Learning AMIs install their own
+cuDNN under `/usr/local/cuda-*/lib` and put it on `LD_LIBRARY_PATH`. If that cuDNN is older than the one bundled with
+your PyTorch wheel, cuDNN loads a mix of both versions and the first convolution in the text encoder fails with
+`Unable to load any of {libcudnn_engines_runtime_compiled.so...}`. Run with that variable unset so PyTorch uses its own
+cuDNN:
+
+```bash
+env -u LD_LIBRARY_PATH python remove_bg.py photo.jpg --model 3.0
+```
+
 ### Bria API
 
 Commercially licensed, fully managed, no GPU required:
