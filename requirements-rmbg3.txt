@@ -1,0 +1,8 @@
+# RMBG-3.0 (remove_bg.py --model 3.0)
+diffusers>=0.42.0
+torch
+torchvision
+transformers
+accelerate
+huggingface_hub
+pillow
