@@ -1,0 +1,7 @@
+# RMBG-2.0 (remove_bg.py --model 2.0)
+torch
+torchvision
+pillow
+kornia
+timm
+transformers
